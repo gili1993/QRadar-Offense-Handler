@@ -50,8 +50,8 @@ The project is organized into modular Python scripts and configuration files to 
    - The `html_report.py` script creates an HTML file summarizing the offense and related events.
 5. **Logging:**
    - All operations and errors are logged in `offense_handler.log`.
-  ![Uploading image.png…]()
-
+  
+![diagram](https://github.com/user-attachments/assets/21fb2a03-7e57-4e4a-a8aa-5cf9ee0a8f5c)
 
 ## Prerequisites
 - Python 3.8 or higher
@@ -66,6 +66,7 @@ cd qradar-offense-handler
 ```
 
 Install the required packages:
+
 ```bash
 pip install -r requirements.txt
 ```
