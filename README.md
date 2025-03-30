@@ -50,6 +50,8 @@ The project is organized into modular Python scripts and configuration files to 
    - The `html_report.py` script creates an HTML file summarizing the offense and related events.
 5. **Logging:**
    - All operations and errors are logged in `offense_handler.log`.
+  ![Uploading image.png…]()
+
 
 ## Prerequisites
 - Python 3.8 or higher
