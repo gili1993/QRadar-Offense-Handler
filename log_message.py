@@ -1,6 +1,6 @@
 import logging
 
-LOG_FILE = "/Users/gililevy/Documents/QRadar Simpale Integration/qradar_offense_handler/offense_handler.log"
+LOG_FILE = "offense_handler.log"
 
 # Configure logging
 logging.basicConfig(filename=LOG_FILE, level=logging.INFO,
@@ -16,5 +16,6 @@ def log_message(message, level="info"):
         logging.warning(message)
     elif level == "error":
         logging.error(message)
+
 
 #log_message("test")
